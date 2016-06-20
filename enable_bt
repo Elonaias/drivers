@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo pacman -S bluez bluez-utils
+
+sudo systemctl start bluetooth
+
+sudo systemctl enable bluetooth
